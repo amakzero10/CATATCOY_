@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- The Glossy 3D Liquid Glass Number "10" -->
+    <!-- Number '1' Path -->
+    <path
+        android:fillType="nonZero"
+        android:strokeColor="#DDFFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 27 41 L 34 34 L 43 34 L 43 74 L 33 74 L 33 43 L 27 41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="34"
+                android:endX="35"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#F4FFFFFF" android:offset="0.0" />
+                <item android:color="#66E2E8F0" android:offset="0.6" />
+                <item android:color="#3394A3B8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Number '0' Path -->
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#DDFFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 66 34 A 16 20 0 1 0 66 74 A 16 20 0 1 0 66 34 Z M 66 42 A 8 12 0 1 1 66 66 A 8 12 0 1 1 66 42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="34"
+                android:endX="66"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#F4FFFFFF" android:offset="0.0" />
+                <item android:color="#66E2E8F0" android:offset="0.6" />
+                <item android:color="#3394A3B8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glossy Highlight Reflections to make it look like 3D glass -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M 34 35 L 42 35 L 42 37 L 34 37 Z" />
+
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M 66 35 A 15 19 0 0 1 81 54 A 1 1 0 0 1 79 54 A 13 17 0 0 0 66 37 Z" />
+</vector>

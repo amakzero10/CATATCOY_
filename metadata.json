@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: catatcoy",
+  "description": "Sophisticated personal finance management application with a premium glassmorphic style, local database tracking, and custom Indonesian financial health conditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
