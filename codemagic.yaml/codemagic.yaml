@@ -3,17 +3,6 @@ workflows:
     name: Android APK Workflow
     max_build_duration: 60
     instance_type: mac_mini_m1
-    environment:
-      groups:
-        - none
-      vars:
-        PACKAGE_NAME: "com.example.catatcoy"
-      node: latest
-    triggering:
-      events:
-        - push
-      branches:
-        - main
     scripts:
       - name: Set up local.properties
         script: |
@@ -23,7 +12,3 @@ workflows:
           ./gradlew assembleDebug
     artifacts:
       - app/build/outputs/apk/**/*.apk
-    publishing:
-      email:
-        recipients:
-          - none
